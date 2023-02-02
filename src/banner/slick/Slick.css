@@ -1,0 +1,7 @@
+.new_coin_container{
+    border-radius:20px ;
+}
+.new_coin_card{
+    border: 1px solid rgb(186, 211, 249);
+    border-radius: 8px;
+}

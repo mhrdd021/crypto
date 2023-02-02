@@ -1,0 +1,23 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_484_322)">
+<g filter="url(#filter0_i_484_322)">
+<path d="M0 12.0001C0 18.6268 5.37313 24 12 24C18.6267 24 24 18.6268 24 12.0001C24 5.37333 18.6267 0 12 0C5.37313 0 0 5.37333 0 12.0001Z" fill="white"/>
+</g>
+<path d="M11.9341 21.9907C15.5106 21.9907 17.6829 20.7949 20.2062 18.3264L17.7377 15.7483C15.9385 17.5475 14.3477 18.502 11.989 18.502C8.22593 18.502 5.41737 15.8799 5.41737 11.9523C5.41737 8.21124 8.33564 5.45754 11.9122 5.45754C14.1393 5.45754 16.0263 6.41201 17.7487 8.24415L20.2939 5.80861C18.2204 3.38403 15.1925 1.99072 11.9999 1.99072C6.52544 1.99072 1.86279 5.94026 1.86279 11.9633C1.86279 17.8327 5.97689 21.9907 11.9341 21.9907Z" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_i_484_322" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="effect1_innerShadow_484_322"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_484_322"/>
+</filter>
+<clipPath id="clip0_484_322">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

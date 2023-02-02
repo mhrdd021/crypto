@@ -1,0 +1,41 @@
+.banner_container{
+    background: linear-gradient(45deg, rgba(19,33,55,1) 0%, rgba(31,57,96,1) 19%, rgba(19,34,56,1) 54%, rgba(13,23,38,1) 100%);
+}
+.phone_input{
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #c7ddfe;
+    height: 3rem;
+}
+.phone_input::placeholder{
+    text-align: right;
+    padding: 0.2rem 0.5rem;
+}
+.start_button svg path{
+    color: #0D1726;
+}
+@media screen and (max-width:1000px) {
+    .banner_container{
+        display: block;
+    }
+    .banner_container div{
+        width: 100%;
+    }
+    .banner_text h1{
+        position: relative;
+        right: 5%;
+    }
+    .banner_text h2{
+        position: relative;
+        right: 6%;
+    }
+    .mockup_container{
+        width: 100% !important;
+    }
+    .input_container{
+        width: 80% !important;
+    }
+    .phone_input::placeholder{
+        font-size: 0.7rem;
+    }
+}
