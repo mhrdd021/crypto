@@ -6,6 +6,11 @@ import Banner from '../banner/Banner';
 import Loader from '../loader/Loader';
 
 const MainCrypto = () => {
+//push page to top
+useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "بازارهای معاملاتی";
+    }, []);
 
     const [Coins , setCoins] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -44,7 +49,7 @@ const MainCrypto = () => {
                         Coins.map((coin , i)=>(
                             <div className="coin-container" key={i}>
                                 <div className="coin-row">
-                                    <div className="coin">
+                                    <div className="coin pl-4 md:pl-0">
                                         <img src={coin.image} alt="crypto"/>
                                         <h1>{coin.name}</h1>
                                         <p className="coin-symbol">({coin.symbol})</p>
@@ -60,7 +65,7 @@ const MainCrypto = () => {
                                     </div>
                                     
                                     <Link to={`/Coin/${coin.id}`}>
-                                        <button value={coin.id} className="bg-zinc-600 rounded-md mx-4 py-1 px-2 coinLink">
+                                        <button value={coin.id} className="bg-zinc-600 rounded-md mr-4 py-1 px-2 coinLink">
                                                 جزئیات
                                         </button>
                                     </Link>

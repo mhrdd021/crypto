@@ -8,46 +8,15 @@ import { MdOutlineAlternateEmail } from 'react-icons/md';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer-section">
+            <footer className="footer-section mt-12">
             <div className="container mx-auto">
-                <div className="footer-cta p-6">
-                <div className="row flex justify-evenly row1">
-                    <div className="col-xl-4 col-md-4 mb-30">
-                    <div className="single-cta">
-                        
-                        <div className="cta-text">
-                        <h4 className='flex'><MdLocationPin className='text-red-600 text-2xl mt-1 pl-2'/>آدرس ما</h4>
-                        <span>تهران-میرداماد - خیابان نسا - پلاک4 طبقه 4</span>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-xl-4 col-md-4 mb-30">
-                    <div className="single-cta">
-                        <div className="cta-text">
-                        
-                        <h4 className='flex'><FaPhone className='text-red-600 text-2xl mt-1 pl-2'/>شماره تماس</h4>
-    
-                        <span>09012345678</span>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-xl-4 col-md-4 mb-30">
-                    <div className="single-cta">
-                        
-                        <div className="cta-text">
-                        <h4 className='flex'><SiGmail className='text-red-600 text-2xl mt-1 pl-2'/>ایمیل</h4>
-                        <span>mail@info.com</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+
                 <div className="footer-content pt-5 pb-5">
                 <div className="row flex row2 px-16">
                     <div className="w-4/12 col-lg-4 mb-50 p">
                     <div className="footer-widget">
-                        <div className="footer-logo">
-                        <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" className="img-fluid" alt="logo"></img></a>
+                        <div className="footer-logo flex">
+                        <h2 className="text-2xl text-blue-100 font-bold flex w-fit">REACT JS</h2><span className='text-zinc-400 mt-2 text-sm pl-2'>mehrdad</span>
                         </div>
                         <div className="footer-text">
                         <p>

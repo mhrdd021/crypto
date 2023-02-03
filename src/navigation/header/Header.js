@@ -2,11 +2,10 @@ import React from "react";
 import './Header.css'
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-import { TbHome } from 'react-icons/tb';
-import { BiMovie } from 'react-icons/bi';
-import { RiSlideshow3Line } from 'react-icons/ri';
-import { HiUsers } from 'react-icons/hi';
-import { BiSupport } from 'react-icons/bi';
+import { FcComboChart } from 'react-icons/fc';
+import { FcCurrencyExchange } from 'react-icons/fc';
+import { FcInfo } from 'react-icons/fc';
+import { FcAssistant } from 'react-icons/fc';
 
 const Header = () => {
 
@@ -67,17 +66,17 @@ const Header = () => {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0" style={{direction:'rtl'}}>
                
                 <li className="text-white">
-                  <Link to={"/Slick"}>
+                  <Link to={"/"}>
                     <span className="text flex">
-                      <BiMovie className='text-xl red ml-1 mr-1'/>جدیدترین ارزها
+                      <FcCurrencyExchange className='text-xl red ml-1 mr-1'/>صفحه اصلی
                     </span>
                   </Link>
                 </li>
 
                 <li className="text-white">
-                  <Link to={"/Movies"}>
+                  <Link to={"/Coin/bitcoin"}>
                     <span className="text flex">
-                      <RiSlideshow3Line className='text-xl red ml-1 md:mr-4'/>بازارهای معاملاتی
+                      <FcComboChart className='text-xl red ml-1 md:mr-4'/>بازارهای معاملاتی
                     </span>
                   </Link>
                 </li>
@@ -85,19 +84,10 @@ const Header = () => {
                 <li className="text-white">
                   <Link to={"/About-Us"}>
                     <span className="text flex">
-                      <HiUsers className='text-xl red ml-1 mr-1'/>درباره ما
+                      <FcInfo className='text-xl red ml-1 mr-1'/>درباره ما
                     </span>
                   </Link>
                 </li>
-
-                <li className="text-white">
-                  <Link to={"/Movies"}>
-                    <span className="text flex">
-                      <BiSupport className='text-xl red ml-1 mr-1'/>ارتباط با ما
-                    </span>
-                  </Link>
-                </li>
-
 
               </ul>
             </div>

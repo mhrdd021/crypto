@@ -50,21 +50,8 @@ const CoinInfo = () => {
 
     (<div className='w-full'
     >
-        {/*----------------------name & primary info part-----------------------------*/}  
-        <div className='flex w-10/12 mx-auto my-4'>
-            {/*<img src={CoinInfo.image.small}></img>*/}
-            <div className='ml-8'>
-                <h2 className='font-bold text-xl text-blue-100'>
-                    {CoinInfo.name}
-                </h2>
-                <h2 className='text-blue-100'>
-                    {CoinInfo.symbol}
-                </h2>
-            </div>
-        </div>
-
         {/*----------------------main data part-----------------------------*/}  
-        <div className='flex mx-auto data_container gap-6'>
+        <div className='flex mx-auto data_container gap-6 pt-20'>
 
             {/*----------------------left part-----------------------------*/}  
             <div className='w-8/12 data_part h-fit'>

@@ -7,7 +7,7 @@ import SimpleSlider from './slick/Slick';
 const Banner = () => {
   return (
     <>
-        <div className='w-full h-auto md:h-4/6 flex mt-12 banner_container'>
+        <div className='w-full h-auto md:h-4/6 flex pt-12 banner_container'>
         <div className='w-1/2 mockup_container'>
             <img src={mockup} className="w-8/12 sm:w-3/6 mb-8 mx-auto"></img>
         </div>
