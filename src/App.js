@@ -4,6 +4,10 @@ import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import CoinInfo from '../src/crypto-info/CoinInfo'
+import About from '../src/aboutUs/About'
+import Header from './navigation/header/Header'
+import Footer from './navigation/footer/Footer'
+
 
 function App() {
     //change tabBar name
@@ -17,17 +21,24 @@ function App() {
   return(
     <React.Fragment>
     <div className="body-wrap z-50 overflow-x-hidden">
-
-      {/*------------------------------Routes----------------------------- */}
       <div>
-        
-        <Routes>
-          <Route path='/' element={<Coin />} />
-          {/*-------------Coin-------------- */}
-          <Route path="/Coin/:id" element={<CoinInfo />} />
-        </Routes>
+        <Header/>
       </div>
 
+        {/*------------------------------Routes----------------------------- */}
+        <div>
+          <Routes>
+            <Route path='/' element={<Coin />} />
+            {/*-------------Coin-------------- */}
+            <Route path="/Coin/:id" element={<CoinInfo />} />
+            {/*-------------About-------------- */}
+            <Route path="/About-Us" element={<About />} />
+          </Routes>
+        </div>
+
+      <div>
+        <Footer/>
+      </div>
     </div>
   </React.Fragment>
   )

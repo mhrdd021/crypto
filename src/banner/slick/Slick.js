@@ -6,17 +6,6 @@ import CELR from '../../assets/CELR.svg'
 import WIN from '../../assets/WIN.svg'
 
 const SimpleSlider = () => {
-  const [price, setPrice] = useState(3487009);
-  const [url, setUrl] = useState();
-  
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPrice(
-        Math.random()
-    );
-    }, 1000);
-  }, []);
 
   return (
     <div className="w-full md:w-8/12 md:mx-auto rounded-lg justify-between  h-auto py-4 md:px-8 p-2 new_coin_container z-50 mb-8 relative -top-8 md:-top-12 sm:-top-12" style={{backgroundColor:'#0F1C2E'}}>
