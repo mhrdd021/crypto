@@ -46,6 +46,9 @@
     .coin-price{
       display: none;
     }
+    .coin-row{
+      justify-content: space-around;
+    }
   }
   @media screen and (max-width:690px) {
     .coin-container{
@@ -54,20 +57,37 @@
     .coin-symbol{
       display: none;
     }
+    .coin{
+      width: 100px;
+    }
+    .coin-data{
+      width: max-content;
+      display: block;
+      text-align: center;
+      font-size: 0.9rem;
+    }
     .coin h1{
       font-size: 0.8rem;
       margin-top: 0.2rem;
     }
-    .coin-data p {
-      font-size: 0.6rem;
-      margin: 0.4rem 0.2rem;
+    .coin-volume{
+      font-size: 0.8rem !important;
+      margin: 0.1rem auto !important;
+    }
+    .coin-percent{
+      font-size: 0.7rem !important;
+      padding-top: 0.1rem !important;
+      margin: 00.1rem auto !important;
     }
     .coin img{
       width: 1.5rem;
       height: 1.5rem;
     }
     .coinLink{
-      font-size: 0.6rem;
+      font-size: 0.7rem;
+      font-weight: 700;
       margin: 0 0.2rem;
+      width: 60px;
+      height: 28px;
     }
   }

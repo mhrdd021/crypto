@@ -1,9 +1,9 @@
 import React from 'react'
 import '../footer/Footer.css'
-import { MdLocationPin } from 'react-icons/md';
-import { FaPhone } from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
-import { MdOutlineAlternateEmail } from 'react-icons/md';
+import { FaTwitter } from 'react-icons/fa'
+import { FaTelegramPlane } from 'react-icons/fa'
+import { BsGithub } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
     return (
@@ -32,11 +32,11 @@ const Footer = () => {
                         <h3>لینکهای پرکاربرد</h3>
                         </div>
                         <ul>
-                        <li><a href="#">صفحه اصلی</a></li>
-                        <li><a href="#">فیلم</a></li>
-                        <li><a href="#">سریال</a></li>
-                        <li><a href="#">جدیدترین ها</a></li>
-                        <li><a href="#">پربازدید</a></li>
+                        <li><a href="/">صفحه اصلی</a></li>
+                        <li><a href="#">بازارهای معاملاتی</a></li>
+                        <li><a href="#">کارمزد</a></li>
+                        <li><a href="#">قوانین</a></li>
+                        <li><a href="#">بازارها</a></li>
                         </ul>
                     </div>
                     </div>
@@ -46,13 +46,15 @@ const Footer = () => {
                         <h3>ارتباط با ما</h3>
                         </div>
                         <div className="footer-text mb-25">
-                        <p>با ثبتنام در این سایت میتوانید فیلم مورد علاقه خودرا آپلود و یا از همکاران ما درخواست بارگذاری آن را داشته باشید</p>
+                        <p className='md:text-center'>
+                            از طریق راه های زیر میتوانید با ما ارتباط داشته باشید
+                        </p>
                         </div>
-                        <div className="subscribe-form">
-                        <form action="#">
-                            <input type="text" placeholder="ایمیل" />
-                            <button><MdOutlineAlternateEmail className='text-3xl'/></button>
-                        </form>
+                        <div className="subscribe-form flex gap-4 text-2xl justify-start md:justify-center connection_link">
+                            <FaTwitter />
+                            <FaTelegramPlane />
+                            <BsGithub />
+                            <BsLinkedin />
                         </div>
                     </div>
                     </div>

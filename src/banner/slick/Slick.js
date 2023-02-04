@@ -8,7 +8,7 @@ import WIN from '../../assets/WIN.svg'
 const SimpleSlider = () => {
 
   return (
-    <div className="w-full md:w-8/12 md:mx-auto rounded-lg justify-between  h-auto py-4 md:px-8 p-2 new_coin_container z-50 mb-8 relative -top-8 md:-top-12 sm:-top-12" style={{backgroundColor:'#0F1C2E'}}>
+    <div className="w-full md:w-8/12 md:mx-auto rounded-lg justify-between  h-auto py-4 md:px-8 p-2 new_coin_container z-2 mb-8 relative -top-8 md:-top-12 sm:-top-12" style={{backgroundColor:'#0F1C2E'}}>
         <h1 className="font-bold text-blue-50 text-right">جدیدترین ارزها</h1>
         <div className="md:flex justify-around">
             <div className="flex justify-around w-full md:w-1/2 mt-4">

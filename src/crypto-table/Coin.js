@@ -49,11 +49,13 @@ useEffect(() => {
                         Coins.map((coin , i)=>(
                             <div className="coin-container" key={i}>
                                 <div className="coin-row">
-                                    <div className="coin pl-4 md:pl-0">
-                                        <img src={coin.image} alt="crypto"/>
-                                        <h1>{coin.name}</h1>
-                                        <p className="coin-symbol">({coin.symbol})</p>
-                                    </div>
+                                    <Link to={`/Coin/${coin.id}`}>
+                                        <div className="coin pl-4 md:pl-0">
+                                            <img src={coin.image} alt="crypto"/>
+                                            <h1>{coin.name}</h1>
+                                            <p className="coin-symbol">({coin.symbol})</p>
+                                        </div>
+                                    </Link>
                                     <div className="coin-data">
                                         <p className="coin-volume">${coin.total_volume.toLocaleString()}</p>
                                         {coin.price_change_24h < 0 ? (

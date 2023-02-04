@@ -11,7 +11,7 @@ const Header = () => {
 
   const [navbar, setNavbar] = useState(false);
   return (
-    <div className='fixed w-full z-20 pt-2 nav-bg header'>
+    <div className='fixed w-full z-50 pt-2 nav-bg header'>
       <nav className="w-full shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>

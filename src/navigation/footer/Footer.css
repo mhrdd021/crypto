@@ -184,6 +184,13 @@ ul {
   .row2{
   direction: rtl;
   }
+  .connection_link svg path{
+    color: #99afc4;
+    transition: 150ms;
+  }
+  .connection_link svg path:hover{
+    color: #6d97c2;
+  }
   @media screen and (max-width:992px) {
     .row2{
         display: block !important;

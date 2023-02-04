@@ -40,7 +40,7 @@ useEffect(()=>{
         
                         <div className='w-6/12'>
                             <h1 className='text-2xl font-bold text-blue-100 relative top-2/3 text-center'>درباره صرافی ما</h1>
-                            <p className='text-xs font-light text-blue-200 relative top-2/3 text-center w-8/12 mx-auto my-4'>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری</p>
+                            <p className='text-xs font-light text-blue-200 relative top-2/3 text-center md:w-8/12 mx-auto my-4 px-4'>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum)  اولین هدف تیم والکس، ایجاد بستری امن برای انجام معامله‌ها و حفظ دارایی‌های مشتریان است. به همین جهت از افراد متخصص در حوزه امنیت سایبری استفاده شده است. برای توسعه و بهبود سایت همواره به موضوع امنیت توجه شده است. برای روشن‌تر کردن و اعتماد شما مشتریان گرامی در زیر به صورت مفصل‌تر توضیح داده‌ایم. به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری</p>
                         </div>
         
                         <div className='w-4/12'>
@@ -54,7 +54,7 @@ useEffect(()=>{
                     {/*----------------------notice part-----------------------------*/}  
                     <div className='w-full notice_container mt-8'>
         
-                        <h1 className='text-blue-100 font-bold text-right'>چرا صرافی ما؟</h1>
+                        <h1 className='text-blue-100 font-bold text-right pr-8'>چرا صرافی ما؟</h1>
         
                         <div className='flex notice_part1'>
                             <div className='w-4/12 rounded-md py-4 px-4 my-2 mx-4'>
