@@ -159,7 +159,7 @@ const CoinInfo = () => {
                     <h1 className='text-blue-100 font-bold text-right'>چرا صرافی ما؟</h1>
 
                     <div className='flex notice_part1'>
-                        <div className='w-4/12 rounded-md py-4 px-4 my-2 mx-4'>
+                        <div className='w-4/12 rounded-md py-4 px-4 my-2 md:mx-4'>
                         <IoStatsChart className='mx-auto my-2 text-xl icons'/>
                         <h1 className='font-bold text-blue-100 text-center'>عمق بازار و حجم معاملات بالا</h1>
                             <p className='text-xs font-thin text-center text-blue-100'>
@@ -167,7 +167,7 @@ const CoinInfo = () => {
                             </p>
                         </div>
 
-                        <div className='special w-8/12 rounded-md py-4 px-4 my-2 mx-4 bg-blue-100'>
+                        <div className='special w-8/12 rounded-md py-4 px-4 my-2 md:mx-4 bg-blue-100'>
                             <IoRocket className='mx-auto my-2 text-xl '/>
                             <h1 className='font-bold text-slate-900 text-center'>امکانات پیشرفته برای معاملات</h1>
                             <p className='text-xs font-thin text-center text-slate-900'>
@@ -177,14 +177,14 @@ const CoinInfo = () => {
                     </div>
 
                     <div className='flex notice_part2'>
-                        <div className='w-8/12 rounded-md py-4 px-4 my-2 mx-4'>
+                        <div className='w-8/12 rounded-md py-4 px-4 my-2 md:mx-4'>
                         <SiSpringsecurity className='mx-auto my-2 text-xl icons'/>
                         <h1 className='font-bold text-blue-100 text-center'>سپرهای امنیتی مدرن</h1>
                             <p className='text-xs font-thin text-center text-blue-100'>
                             تیم امنیتی پیشرفته والکس با ابزارهای مدرن و به‌روز، همواره برای حفظ امنیت دارایی کاربران تلاش می‌کنند. ذخیره امن دارایی کاربران در کیف پول‌های سرد و تایید هویت دو عاملی از جمله این ابزارها هستند.                            </p>
                         </div>
                         
-                        <div className='w-4/12 rounded-md py-4 px-4 my-2 mx-4'>
+                        <div className='w-4/12 rounded-md py-4 px-4 my-2 md:mx-4'>
                         <FaWallet className='mx-auto my-2 text-xl icons'/>
                         <h1 className='font-bold text-blue-100 text-center'>کیف‌پول اختصاصی</h1>
                             <p className='text-xs font-thin text-center text-blue-100'>

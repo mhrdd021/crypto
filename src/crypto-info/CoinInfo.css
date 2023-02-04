@@ -77,12 +77,12 @@
         display: block;
     }
     .notice_part1 div{
-        width: 90%;
+        width: 100%;
     }
     .notice_part2{
         display: block;
     }
     .notice_part2 div{
-        width: 90%;
+        width: 100%;
     }
 }
