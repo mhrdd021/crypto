@@ -17,7 +17,7 @@ const Header = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#" className='flex'>
-                <h2 className="text-2xl text-blue-100 font-bold">REACT JS</h2><span className='text-zinc-400 mt-2 text-sm pl-2'>mehrdad</span>
+                <h2 className="sm:text-2xl text-sm text-blue-100 font-bold">REACT JS</h2><span className='text-zinc-400 mt-1 sm:mt-2 sm:text-sm text-xs pl-2'>mehrdad</span>
               </a>
               <div className="md:hidden">
                 <button
@@ -74,7 +74,7 @@ const Header = () => {
                 </li>
 
                 <li className="text-white">
-                  <Link to={"/Coin/bitcoin"}>
+                  <Link to={"/Binance"}>
                     <span className="text flex">
                       <FcComboChart className='text-xl red ml-1 md:mr-4'/>بازارهای معاملاتی
                     </span>

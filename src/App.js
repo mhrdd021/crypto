@@ -7,7 +7,7 @@ import CoinInfo from '../src/crypto-info/CoinInfo'
 import About from '../src/aboutUs/About'
 import Header from './navigation/header/Header'
 import Footer from './navigation/footer/Footer'
-
+import Binance from './binance/Binance';
 
 function App() {
     //change tabBar name
@@ -31,6 +31,8 @@ function App() {
             <Route path='/' element={<Coin />} />
             {/*-------------Coin-------------- */}
             <Route path="/Coin/:id" element={<CoinInfo />} />
+            {/*-------------Binance-------------- */}
+            <Route path="/Binance" element={<Binance />} />
             {/*-------------About-------------- */}
             <Route path="/About-Us" element={<About />} />
           </Routes>

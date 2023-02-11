@@ -130,3 +130,6 @@
     height: 60px;
     float: left;
 }
+@media screen and (max-width:340px) {
+    
+}

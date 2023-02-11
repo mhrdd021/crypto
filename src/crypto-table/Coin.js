@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Banner from '../banner/Banner';
 import Loader from '../loader/Loader';
-
 const MainCrypto = () => {
 //push page to top
 useEffect(() => {
@@ -24,7 +23,7 @@ useEffect(() => {
             // Await make wait until that 
             // promise settles and return its result
             const response = await axios.get(
-            `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=40&page=1&sparkline=false`);
+            `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false`);
 
             // After fetching data stored it in posts state.
             setCoins(response.data);
